@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* head panel start */
+.head-panel{
+    position: relative; 
+   
+}
+
+.head-panel-text-1, .head-panel-text-2{
+    position: absolute;
+     bottom: 0;
+    
+}
+.head-panel-text-1 p i{
+   color: white;
+   font-size: 18px;
+}
+.head-panel-text-1 p i span {
+    color: black;
+    
+}
+.head-panel-text-2 input{
+    box-shadow: 0px 5px 15px 0px silver;
+}
+nav .navbar-brand{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-div {
+	background: rgb(70, 165, 202);
+	box-shadow: 0px 3px 10px silver;	
+	
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #ffffff;
+	font-weight: 600px;
+}
+
+.nav-item:hover{
+background-color: antiquewhite;
+}
+.sticky{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;  
+   width: 100%;
+  margin-bottom: 400px;
+    
+}
+/* head panel over */
+/* company Staristics section start */
+.company-statistics-section{
+    padding-top: 100px;
+}
+.Company-count div{
+width: 40%;
+background-color: #F6F5F3;
+padding: 15px;
+margin: 10px;
+text-align: center;
+border-radius: 5px;
+height: 150px;
+
+}
+.Company-count h3{
+    color: #F4D143;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 15px;
+}
+.company-detais h2 {
+    font-size:2.5rem ;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.company-detais p{
+    line-height: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* company Staristics section over */
+/* Apparments show section start */
+.apparment-title h3 {
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+.appartments-show{
+    background-color: #F6F5F3;
+}
+.appartments-show p i{
+    font-size: 20px;
+   margin-left: 15px;
+   font-weight: bold;
+}
+.appartments-show p span{
+    color: blue;
+    font-weight: bold;
+}
+.appartments-show .card img{
+    height: 350px;
+    transition: 1s;
+}
+.appartments-show .card{
+    margin-top: 20px;
+    box-shadow: -15px 10px 20px  silver;
+    overflow: hidden;
+}
+.appartments-show .card:hover {
+    box-shadow: -15px 10px 20px  transparent;
+    border: 1px solid rgb(11, 198, 255);
+}
+.appartments-show .card:hover img{
+    transform: scale(1.1);
+}
+/* Apparments show section over */
+/* works section start */
+.works h1{
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin: 10px auto;
+}
+.works P{
+    font-family: 'Times New Roman', Times, serif;
+}
+.works h2{
+    font-size: 13rem;
+    font-weight: bold;
+    margin-top: -115px;
+    margin-left: -40px;
+    letter-spacing: -20px;
+}
+.works .card{
+    overflow: hidden;
+    box-shadow: -10px 10px 20px silver; 
+    margin: 10px;   
+}
+.works h5{
+    font-weight: bold;    
+}
+.works h6{
+    font-weight: bold;
+    border-bottom: 3px solid rgb(150, 144, 144);
+    display: inline;
+   
+}
+.works .card:hover{
+    background-color: #FFCC01;
+    color: white;
+    transform:scale(1.1);
+}
+.works h6:hover{
+    border-bottom: 3px solid white;
+}
+/* works section over */
+/* service section start */
+.service h1{
+   font-weight: bold;
+   font-size: 3rem;
+}
+.service h4{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.services-test p{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    
+  
+}
+/* service section over */
+/* Agents section start */
+.agents .card img{
+    height: 300px;
+}
+.agents{
+    background-color: #F6F5F3;
+}
+.agents .card i{
+    font-size: 22px;
+    color: rgb(5, 56, 122);
+    margin: auto 10px;
+    font-weight: bold;
+}
+.agents .card{
+    margin: 10px;
+}
+
+/* Agents section over */
+/* Add section start */
+.add-laction{
+    position: relative;
+}
+.add-location-name{
+    position: absolute;
+    background-color: #FFCC01;
+    padding: 5px;
+    bottom: -10%;
+    left: 25%;
+}
+.add-location-name p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.add-location-name p i{
+    color: white;
+    margin: auto 10px;
+}
+.add-title h3{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.add-title p{
+    line-height: 30px;
+}
+.agents  img{
+    width: 100%;
+    height: 300px;
+    transition: 2s;
+}
+.agents .card:hover{
+    box-shadow: 0px 5px 15px silver;
+}
+.agents .card:hover img{
+    transform: scale(1.1);
+}
+.agents .card{
+    overflow: hidden;
+}
+/* Add section over */
+/* foooter section start */
+.footer{
+    background-color: #20373D;
+}
+.footer button{
+    border: none;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+.footer h2{
+    font-weight: bold;
+    color: white;   
+}
+.footer-list{
+    color: silver;
+}
+.footer-list h5{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+/* foooter section over */
+@media screen and (max-width:775px){
+    .head-panel-text-2{
+        top: 20%;
+        text-align: center;
+        left: 12%;
+    } 
+    .head-panel-text-1{
+        top: 80%;
+        left: 20%;
+    }    
+    .head-panel-text-2 h1{       
+        font-weight: bold;
+    }
+    
+}
+
+@media screen and (max-width:567px){
+    h1, h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size:1.5rem ;
+    }
+}
+
+
+
+@media screen and (min-width:776px){
+    .head-panel img {
+        width: 70%;
+        margin-left: 30%;
+    }
+    .head-panel-text-2{
+        top: 21%;
+        text-align: center;
+        left: 5%;
+    } 
+    .head-panel-text-1{
+        top: 80%;
+        left: 45%;
+    }
+    .head-panel-text-2 h1{
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+    .company-detais p{
+        line-height: 20px;
+    }
+   
+}
+@media screen and (min-width:992px){
+    .head-panel-text-1{
+        top: 87%;
+        left: 62%;
+    }
+    .head-panel-text-2 h1{
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .head-panel-text-2{        
+        left: 2%;
+
+    } 
+    .company-detais p{
+        line-height: 35px;
+    }
+}
